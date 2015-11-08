@@ -9,6 +9,7 @@ using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using SmallHotel.WebMVC.Models;
+using SmallHotel.Models;
 
 namespace SmallHotel.WebMVC.Controllers
 {

@@ -11,6 +11,8 @@ using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
 using SmallHotel.WebMVC.Models;
+using SmallHotel.Models;
+using SmallHotel.Data;
 
 namespace SmallHotel.WebMVC
 {

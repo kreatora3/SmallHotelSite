@@ -6,6 +6,8 @@ using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
 using SmallHotel.WebMVC.Models;
+using SmallHotel.Models;
+using SmallHotel.Data;
 
 namespace SmallHotel.WebMVC
 {

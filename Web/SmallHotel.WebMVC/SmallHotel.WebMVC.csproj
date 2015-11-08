@@ -180,7 +180,6 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -258,6 +257,16 @@
   <ItemGroup>
     <Content Include="packages.config" />
     <None Include="Project_Readme.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Data\SmallHotel.Data\SmallHotel.Data.csproj">
+      <Project>{41af830c-781b-4f58-b191-22c92e6e74f4}</Project>
+      <Name>SmallHotel.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Data\SmallHotel.Models\SmallHotel.Models.csproj">
+      <Project>{697aabda-9038-4763-8aec-9d6f3964ec01}</Project>
+      <Name>SmallHotel.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
