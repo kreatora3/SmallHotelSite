@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmallHotel.Models", "Data\S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmallHotel.WebMVC", "Web\SmallHotel.WebMVC\SmallHotel.WebMVC.csproj", "{6D30394E-2808-4B3A-8025-5B8490266613}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmallHotel.Common", "Data\SmallHotel.Common\SmallHotel.Common.csproj", "{9CEBC9FE-B941-4E8F-850F-0DACA1C6B71E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{6D30394E-2808-4B3A-8025-5B8490266613}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D30394E-2808-4B3A-8025-5B8490266613}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D30394E-2808-4B3A-8025-5B8490266613}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CEBC9FE-B941-4E8F-850F-0DACA1C6B71E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CEBC9FE-B941-4E8F-850F-0DACA1C6B71E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CEBC9FE-B941-4E8F-850F-0DACA1C6B71E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CEBC9FE-B941-4E8F-850F-0DACA1C6B71E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,5 +45,6 @@ Global
 		{41AF830C-781B-4F58-B191-22C92E6E74F4} = {0087B6B8-2309-4367-B74B-8AAB015891FF}
 		{697AABDA-9038-4763-8AEC-9D6F3964EC01} = {0087B6B8-2309-4367-B74B-8AAB015891FF}
 		{6D30394E-2808-4B3A-8025-5B8490266613} = {198F65CD-E9AE-4F69-8062-54C396F5FFEC}
+		{9CEBC9FE-B941-4E8F-850F-0DACA1C6B71E} = {0087B6B8-2309-4367-B74B-8AAB015891FF}
 	EndGlobalSection
 EndGlobal

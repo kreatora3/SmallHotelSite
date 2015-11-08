@@ -259,6 +259,10 @@
     <None Include="Project_Readme.html" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Data\SmallHotel.Common\SmallHotel.Common.csproj">
+      <Project>{9cebc9fe-b941-4e8f-850f-0daca1c6b71e}</Project>
+      <Name>SmallHotel.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\Data\SmallHotel.Data\SmallHotel.Data.csproj">
       <Project>{41af830c-781b-4f58-b191-22c92e6e74f4}</Project>
       <Name>SmallHotel.Data</Name>
